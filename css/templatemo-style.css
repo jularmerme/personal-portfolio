@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #6b6b6b;
@@ -134,14 +134,24 @@ a:hover {
 .tm-welcome-right {
   color: white;
   background-color: #986665;
-  padding: 80px 43px 70px;
+  padding: 90px 43px 70px;
   height: 100%;
 }
 
 .tm-welcome-icon {
-  margin-bottom: 50px;
+  margin-bottom: 1.5rem;
   display: block;
   text-align: center;
+}
+
+.tm-welcome-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.tm-welcome-link:hover {
+  color: #98cb00;
 }
 
 /*
@@ -166,6 +176,20 @@ a:hover {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.fadein img {
+  opacity: 0.5;
+  transition: 1s ease;
+}
+
+.fadein img:hover {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.tm-project-screenshot {
+  width: 330px;
 }
 
 .tm-portfolio-description {
@@ -231,7 +255,7 @@ p {
 
 .tm-contact-item-icon {
   margin-bottom: 45px;
-  width: 100%;
+  width: 70%;
   height: 160px;
   display: flex;
   align-items: center;
